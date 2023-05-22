@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+body {
+  font-family: 'Luminary';
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+}
+
+p {
+  text-align: center;
+  color: #c4b8b8;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.buttons {
+  margin: 0 auto;
+  display: flex;
+  width: 300px;
+}
+
+button {
+  
+
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+
+  color: #ffffff;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+button:hover {
+  background-color: #334a55;
+  color: #303030;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  background-color: #6d5656;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-2 {
+  background-color: #ff9050;
+}
+
+.color-4 {
+  background-color: green;
+}
+
+.color-8 {
+  background-color: red;
+}
+
+.color-16 {
+  background-color: orange;
+}
+
+.color-32 {
+  background-color: yellow;
+}
+
+.color-64 {
+  background-color: blue;
+}
+
+.color-128 {
+  background-color: purple;
+}
+
+.color-256 {
+  background-color: pink;
+}
+
+.color-512 {
+  background-color: #50C8FF;
+}
+
+.color-1024 {
+  background-color: green;
+}
+
+.color-2048 {
+  background-color: blue;
+}
+
+.number {
+  color: #FFF;
+  font-size: 35px;
+}
+
+.score {
+  text-align: center;
+  margin-bottom: 20px;
+}
